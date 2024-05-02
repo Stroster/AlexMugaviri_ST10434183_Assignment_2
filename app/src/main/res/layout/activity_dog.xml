@@ -7,17 +7,6 @@
     android:background="@drawable/background2"
     tools:context=".Dog">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="295dp"
-        android:layout_height="238dp"
-        android:layout_marginTop="54dp"
-        android:layout_marginEnd="44dp"
-        android:contentDescription="@string/Image"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/web_photo_editor" />
-
     <Button
         android:id="@+id/Feed"
         android:layout_width="wrap_content"
@@ -89,13 +78,13 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/hungerTextView"
-        android:layout_width="141dp"
-        android:layout_height="42dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="247dp"
+        android:id="@+id/rhungerTextView"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="245dp"
         android:fontFamily="sans-serif-black"
-        android:text="TextView"
+        android:text="@string/hungerresult"
         android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="24sp"
@@ -103,13 +92,13 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/cleanTextView"
-        android:layout_width="127dp"
-        android:layout_height="38dp"
-        android:layout_marginEnd="58dp"
+        android:id="@+id/rcleanTextView"
+        android:layout_width="118dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="23dp"
         android:layout_marginBottom="180dp"
         android:fontFamily="sans-serif-black"
-        android:text="TextView"
+        android:text="@string/cleanresult"
         android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="24sp"
@@ -117,16 +106,26 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/HappyTextView"
-        android:layout_width="124dp"
-        android:layout_height="43dp"
-        android:layout_marginEnd="61dp"
-        android:layout_marginBottom="100dp"
+        android:id="@+id/rhappyTextView"
+        android:layout_width="122dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="112dp"
         android:fontFamily="sans-serif-black"
-        android:text="TextView"
+        android:text="@string/happyresult"
         android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="252dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog1__1_" />
 </androidx.constraintlayout.widget.ConstraintLayout>

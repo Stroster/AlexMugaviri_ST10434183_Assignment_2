@@ -9,5 +9,8 @@
     <string name="TextView2">Clean</string>
     <string name="Happy">Happy</string>
     <string name="Play">Play</string>
+    <string name="hungerresult"></string>
+    <string name="cleanresult"></string>
+    <string name="happyresult"></string>
 
 </resources>
