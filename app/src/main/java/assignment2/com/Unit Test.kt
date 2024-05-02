@@ -1,6 +1,7 @@
 package assignment2.com
 
 class Unit Test {
+    package assignment2.com
 
             import androidx.test.core.app.ActivityScenario
             import androidx.test.espresso.Espresso.onView
